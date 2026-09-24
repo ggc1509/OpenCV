@@ -1,4 +1,9 @@
-// ejemplo1_mostrar_imagen.cpp
+// Ejemplo1_mostrar_imagen.cpp
+// Para la compilación se ejecuta en consola:
+// Para compilar
+// g++ ejemplo1_mostrar_imagen.cpp -o ejemplo1 `pkg-config --cflags --libs opencv4`
+// Para la ejecución
+// ./ejemplo1 foto.jpg
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
